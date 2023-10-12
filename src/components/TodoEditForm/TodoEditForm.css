@@ -1,0 +1,11 @@
+.modal-title {
+  width: 100%;
+}
+
+.modal-content {
+  padding: 15px;
+}
+
+.modal-dialog {
+  top: 200px;
+}

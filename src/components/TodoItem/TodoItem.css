@@ -1,0 +1,48 @@
+.todoItem-container {
+  display: flex;
+  flex-direction: row;
+
+  margin: 20px auto;
+  padding: 20px;
+
+  border: solid 1px rgb(212, 212, 212);
+  border-radius: 10px;
+}
+
+.todoItem-info {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 40px;
+}
+
+.todoItem-name {
+  margin: 10px 0;
+  text-align: left;
+
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.todoItem-description {
+  margin: 0 15px 15px 0;
+  text-align: justify;
+  
+  font-size: 15px;
+}
+
+.todoItem-buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.todoItem-button {
+  margin: 10px 0;
+}
+
+.todoItem-status {
+  text-align: left;
+  margin-bottom: 5px;
+
+  font-size: 15px;
+}
